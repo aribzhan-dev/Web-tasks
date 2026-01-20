@@ -3,125 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsHub</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/about-style.css">
+    <title>UniversalNews - Контакты</title>
+
 </head>
 <body>
-<header class="navbar">
-    <div class="logo">
-        <div class="icon">📰</div>
-        <span>NewsHub</span>
-    </div>
+    
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">UniversalNews</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     
-    <input type="checkbox" id="menu-toggle">
+    <section class="contact-hero">
+        <h1>Свяжитесь с нами</h1>
+        <p>Есть вопрос, новостная подсказка или предложение? Мы будем рады вашему сообщению.</p>
+    </section>
+
+   
+    <main class="container">
+        <div class="contact-cards">
+            <div class="con-card">
+                <div class="icon">✉️</div>
+                <h3>Электронная почта</h3>
+                <p>contact@universalnews.com</p>
+            </div>
+
+            <div class="con-card">
+                <div class="icon">📞</div>
+                <h3>Телефон</h3>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+
+            <div class="con-card">
+                <div class="icon">📍</div>
+                <h3>Адрес</h3>
+                <p>г. Москва, ул. Пресненская, 123</p>
+            </div>
+        </div>
+
+        
+        <div class="contact-container">
+            
+            <div class="contact-form">
+                <h2>Напишите нам</h2>
+
+                <label>Ваше имя</label>
+                <input type="text" placeholder="Иван Иванов">
+
+                <label>Электронная почта</label>
+                <input type="email" placeholder="ivan@example.com">
+
+                <label>Тема сообщения</label>
+                <input type="text" placeholder="Тема вашего сообщения">
+
+                <label>Сообщение</label>
+                <textarea rows="5" placeholder="Напишите ваше сообщение здесь..."></textarea>
+
+                <button>✈ Отправить сообщение</button>
+            </div>
+
+            
+            <div class="contact-info">
+                <h2>Свяжитесь с нами</h2>
+                <p>
+                    Если у вас есть вопрос, предложение, отзыв или идея для сотрудничества —
+                    наша команда всегда готова помочь. Мы стараемся отвечать на все сообщения
+                    в течение 24–48 часов.
+                </p>
+
+                <h3>Подпишитесь на нас</h3>
+                <div class="socials">
+                    <a href="https://www.facebook.com/?locale=ru_RU" class="social">
+                      <img src="images/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://x.com/?lang=ru" class="social">
+                      <img src="images/twitter.png" alt="Twitter">
+                    </a>
+
+                    <a href="https://www.instagram.com/" class="social">
+                      <img src="images/instagram.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://web.telegram.org/" class="social">
+                      <img src="images/telegram.png" alt="Telegram">
+                    </a>
+                </div>
+
+                <h3>Часы работы</h3>
+                <ul>
+                    <li>Понедельник – Пятница <strong>9:00 – 18:00</strong></li>
+                    <li>Суббота <strong>10:00 – 16:00</strong></li>
+                    <li>Воскресенье <strong>Закрыто</strong></li>
+                </ul>
+            </div>
+        </div>
+    </main>
 
     
-    <label for="menu-toggle" class="burger">
-        ☰
-    </label>
-
-
-    <nav class="menu">
-        <a href="index.html">Главное</a>
-        <a href="news-page.html">Новости</a>
-        <a href="about.html">О нас</a>
-        <a href="contacts.html">Контакты</a>
-    </nav>
-</header>
-<main>
-<section class="contact-hero">
-  <h1>Свяжитесь с нами</h1>
-  <p>Есть вопрос, новостная подсказка или предложение? Мы будем рады вашему сообщению.</p>
-</section>
-
-<section class="contact-cards">
-  <div class="con-card">
-    <div class="icon">✉️</div>
-    <h3>Электронная почта</h3>
-    <p>contact@newshub.com</p>
-  </div>
-
-  <div class="con-card">
-    <div class="icon">📞</div>
-    <h3>Телефон</h3>
-    <p>+1 (555) 123-4567</p>
-  </div>
-
-  <div class="con-card">
-    <div class="icon">📍</div>
-    <h3>Адрес</h3>
-    <p>г. Нью-Йорк, ул. News, 123</p>
-  </div>
-</section>
-
-<section class="contact-section">
-  <div class="contact-container">
-
-    
-    <div class="contact-form">
-      <h2>Напишите нам</h2>
-
-      <label>Ваше имя</label>
-      <input type="text" placeholder="Ваше имя">
-
-      <label>Электронная почта</label>
-      <input type="email" placeholder="john@example.com">
-
-      <label>Тема сообщения</label>
-      <input type="text">
-
-      <label>Сообщение</label>
-      <textarea rows="5"></textarea>
-
-      <button>
-        ✈ Отправить сообщение
-      </button>
-    </div>
-
-    
-    <div class="contact-info">
-      <h2>Свяжитесь с нами</h2>
-      <p>
-        Если у вас есть вопрос, предложение, отзыв или идея для сотрудничества —
-        наша команда всегда готова помочь. Мы стараемся отвечать на все сообщения
-        в течение 24–48 часов
-      </p>
-      <h3>Подпишитесь на нас</h3>
-      <div class="socials">
-        <a href="https://www.facebook.com/?locale=ru_RU" class="social">
-        <img src="images/facebook.png" alt="Facebook">
-        </a>
-
-        <a href="https://x.com/?lang=ru" class="social">
-        <img src="images/twitter.png" alt="Twitter">
-        </a>
-
-        <a href="https://www.instagram.com/" class="social">
-        <img src="images/instagram.png" alt="Instagram">
-        </a>
-
-        <a href="https://web.telegram.org/" class="social">
-        <img src="images/telegram.png" alt="Telegram">
-        </a>
-      </div>
-
-      <h3>Часы работы</h3>
-      <ul>
-        <li>Понедельник – Пятница <strong>9:00 AM – 6:00 PM</strong></li>
-        <li>Суббота <strong>10:00 AM – 4:00 PM</strong></li>
-        <li>Воскресенье <strong>Закрыто</strong></li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-
-</main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>UniversalNews</h3>
+                    <p>Надежный источник новостей. Свежая и актуальная информация каждый день.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Разделы</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="about.html" class="active">О нас</a></li>
+                        <li><a href="contacts.html" class="active">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Информация</h3>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия использования</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Связаться с нами</h3>
+                    <p>Email: info@universalnews.com</p>
+                    <p>Тел: +7 (495) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 UniversalNews. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
