@@ -11,7 +11,7 @@ body {
     background-color: #f8f9fa;
 }
 
-/* Header */
+
 header {
     background-color: #1a1a2e;
     color: white;
@@ -55,7 +55,7 @@ nav a.active {
     color: #ff6b6b;
 }
 
-/* Hero Section */
+
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -79,7 +79,7 @@ nav a.active {
     opacity: 0.9;
 }
 
-/* Main Content */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -94,7 +94,7 @@ nav a.active {
     padding-left: 1rem;
 }
 
-/* Featured News */
+
 .featured-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -171,7 +171,7 @@ nav a.active {
     color: #764ba2;
 }
 
-/* Latest News List */
+
 .latest-news {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -190,7 +190,7 @@ nav a.active {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* Footer */
+
 footer {
     background-color: #1a1a2e;
     color: white;

@@ -11,7 +11,7 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Header */
+
 header {
     background-color: #1a1a2e;
     color: white;
@@ -55,7 +55,7 @@ nav a.active {
     color: #ff6b6b;
 }
 
-/* Introduction Section */
+
 .introduction {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -74,14 +74,14 @@ nav a.active {
     opacity: 0.95;
 }
 
-/* Container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* History Section */
+
 .history {
     padding: 4rem 0;
 }
@@ -107,7 +107,7 @@ nav a.active {
     font-size: 1rem;
 }
 
-/* Values Section */
+
 .values {
     padding: 4rem 0;
     background-color: #f5f5f5;
@@ -173,7 +173,7 @@ nav a.active {
     font-size: 0.95rem;
 }
 
-/* Stats Section */
+
 .stats {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -205,7 +205,7 @@ nav a.active {
     font-weight: 600;
 }
 
-/* Footer */
+
 footer {
     background-color: #1a1a2e;
     color: white;
@@ -263,7 +263,7 @@ footer {
     color: #999;
 }
 
-/* Responsive */
+
 @media (max-width: 968px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
