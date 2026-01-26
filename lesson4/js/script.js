@@ -35,11 +35,51 @@ card.classList.toggle("highlight");
 
 
 
-let h1 = document.querySelectorAll("h1")[2];
-h1.style.color = "blue";
-h1.style.fontSize = "36px";
+let h11 = document.querySelectorAll("h1")[2];
+h11.style.color = "blue";
+h11.style.fontSize = "36px";
 
 
+
+let btn = document.getElementById("btn");
+
+function btnClick() {
+    console.log("Button clicked !");
+}
+
+btn.addEventListener("click", btnClick);
+
+
+
+let btn2 = document.getElementById("btn2");
+let text = document.getElementById("text");
+
+
+function btn2Click() {
+    text.textContent = "Button 2 was clicked !";
+}
+
+btn2.addEventListener("click", btn2Click);
+
+
+
+let btn3 = document.getElementById("btn3");
+
+function btn3Click() {
+    cards[0].style.backgroundColor = "#00ea00";
+    cards[1].style.backgroundColor = "#ea0000";
+    cards[2].style.backgroundColor = "#ea0000";
+}
+
+btn3.addEventListener("click", btn3Click);
+
+
+let btn4 = document.getElementById("btn4");
+function btn4Click() {
+    h11.style.color = "red";
+    p.classList.add("highlight");
+
+}
 
 
 
