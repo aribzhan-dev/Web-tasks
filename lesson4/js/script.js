@@ -75,11 +75,17 @@ btn3.addEventListener("click", btn3Click);
 
 
 let btn4 = document.getElementById("btn4");
+
+let p2 = document.querySelector(".card p");
+
 function btn4Click() {
     h11.style.color = "red";
-    p.classList.add("highlight");
-
+    p2.classList.add("highlight");
+    p2.textContent = "Text changed by Button 4";
 }
+
+
+btn4.addEventListener("click", btn4Click);
 
 
 

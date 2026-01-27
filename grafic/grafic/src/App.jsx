@@ -2,7 +2,7 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const CostCurves = () => {
-  // Jadvaldan olingan ma'lumotlar
+  
   const data = [
     { Q: 1, FC: 75, VC: 52, TC: 127, AFC: 75, AVC: 52, ATC: 127, MC: 8 },
     { Q: 2, FC: 75, VC: 102, TC: 177, AFC: 37.5, AVC: 51, ATC: 88.5, MC: 50 },
@@ -35,7 +35,7 @@ const CostCurves = () => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-8">
       <div className="max-w-7xl mx-auto">
-        {/* Заголовок */}
+       
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mb-4 drop-shadow-lg">
             Графики Анализа Издержек
@@ -43,7 +43,7 @@ const CostCurves = () => {
           <p className="text-gray-300 text-lg">Визуализация экономических показателей производства</p>
         </div>
         
-        {/* Первый график */}
+        
         <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl p-8 mb-8 border border-purple-500/30 backdrop-blur-sm">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
@@ -121,7 +121,7 @@ const CostCurves = () => {
           </ResponsiveContainer>
         </div>
 
-        {/* Второй график */}
+        
         <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl p-8 mb-8 border border-purple-500/30 backdrop-blur-sm">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
@@ -195,7 +195,7 @@ const CostCurves = () => {
           </ResponsiveContainer>
         </div>
 
-        {/* Информационные карточки */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-xl p-6 border border-cyan-500/30 hover:border-cyan-500/60 transition-all duration-300">
             <div className="flex items-center gap-3 mb-4">
@@ -248,7 +248,7 @@ const CostCurves = () => {
           </div>
         </div>
 
-        {/* Нижний блок с формулами */}
+        
         <div className="mt-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-xl p-6 border border-indigo-500/30">
           <h3 className="text-xl font-bold text-indigo-300 mb-4 flex items-center gap-2">
             <span className="text-2xl">🔢</span>
